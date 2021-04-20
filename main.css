@@ -1,6 +1,9 @@
 .box{
     width : 300px;
     height : 200px;
-    background : red; 
-    font-size : 16px;
+    background : red;
+    margin : 10px;
+}
+.box2{
+    padding :20px;
 }
