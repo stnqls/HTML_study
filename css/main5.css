@@ -1,6 +1,6 @@
-b{
-    font-weight:normal;
+u{
+    color: blue;
 }
-em{
-    color: brown;
+span{
+    text-decoration: underline;
 }
