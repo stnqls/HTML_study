@@ -1,3 +1,13 @@
-img{
-    width:666px;
+table {
+ border-collapse: collapse;   
+}
+td{
+    border: 1px  solid red;
+    padding: 10px;
+}
+th{
+    border: 1px  solid red;
+    padding: 10px;
+    background-color: lightgray;
+
 }
