@@ -8,18 +8,15 @@
 </head>
 
 <body>
-    <select name="fruits">
-        <optgroup label="내가 좋아하는 과일">
-            <option label="Apple" value="Apple"></option>
-            <option>Orange</option>
-            <option>Banana</option>
-        </optgroup>
+    <input type="text" list="fruits">
 
-        <optgroup label="내가 싫어하는 과일">
-            <option>Mango</option>
-            <option selected>Fineapple</option>
-        </optgroup>
-    </select>
+    <datalist id="fruits">
+      <option>Apple</option>
+      <option>Orange</option>
+      <option>Banana</option>
+      <option>Mango</option>
+      <option>Fineapple</option>
+    </datalist>
 </body>
 
 </html> 
