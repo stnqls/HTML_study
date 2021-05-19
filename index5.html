@@ -8,17 +8,26 @@
 <body>
   <table>
       <caption>데이터 타입과 값</caption>
-     <tr>
-         <th rowspan="2" id="th-data">데이터</th>
-         <th headers="th-data" id="th-type">타입</th>
-         <td headers="th-type">알파벳</td>
-         <td headers="th-type">숫자</td>
-     </tr>
-     <tr>
-        <th headers="th-data" id="th-value">값</th>
-        <td headers="th-value">A</td>
-        <td headers="th-value">7</td>
-     </tr>
+      <colgroup>
+          <col>
+          <col style="background-color: tomato;" span ="2">
+          <!--<col> 2번째 col의 span속성에 의해 3번째 col은 생략가능하다.-->
+      </colgroup>
+      <tr>
+          <th style="background-color: limegreen;"></th>
+          <th>타입</th>
+          <td>값</td>
+      </tr>
+      <tr>
+          <th style="background-color: limegreen;">1</th>
+          <td>알파벳</td>
+          <td>A</td>
+      </tr>
+      <tr>
+          <th style="background-color: limegreen;">2</th>
+          <td>숫자</td>
+          <td>7</td>
+      </tr>
   </table>
 </body>
 </html>
