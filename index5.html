@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <title>HTML Elements</title>
     <link rel="stylesheet" href="css/main5.css">
 </head>
+
 <body>
-  <table>
-      <caption>데이터 타입과 값</caption>
-      <colgroup>
-          <col>
-          <col style="background-color: tomato;" span ="2">
-          <!--<col> 2번째 col의 span속성에 의해 3번째 col은 생략가능하다.-->
-      </colgroup>
-      <tr>
-          <th style="background-color: limegreen;"></th>
-          <th>타입</th>
-          <td>값</td>
-      </tr>
-      <tr>
-          <th style="background-color: limegreen;">1</th>
-          <td>알파벳</td>
-          <td>A</td>
-      </tr>
-      <tr>
-          <th style="background-color: limegreen;">2</th>
-          <td>숫자</td>
-          <td>7</td>
-      </tr>
-  </table>
+    <table>
+        <caption>Fruits</caption>
+        <colgroup>
+            <col span="2" style="background-color: yellowgreen;">
+            <col style="background-color: tomato;">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>F123A</td>
+                <td>Apple</td>
+                <td>$22</td>
+            </tr>
+            <tr>
+                <td>F098B</td>
+                <td>Banana</td>
+                <td>$19</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
+
 </html>
